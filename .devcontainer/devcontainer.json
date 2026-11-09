@@ -1,0 +1,8 @@
+{
+  "name": "AI Job Search",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "node",
+  "postCreateCommand": ["python3", "tools/install_portal_clis.py"]
+}
